@@ -1,0 +1,46 @@
+button {
+  border-radius: 15px;
+  /* border: 1px solid transparent; */
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #374957;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  background-color: brown;
+  /* color: brown; */
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.message a:link {
+  text-decoration: none;
+  color: brown;
+}
+
+.message a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 40px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}

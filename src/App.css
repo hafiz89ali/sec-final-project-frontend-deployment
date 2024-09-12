@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+body {
+  background-color: #fff0e1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #374957;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+input {
+  background-color: #fff0e1;
+  border: 2px solid #374957;
+  border-radius: 15px;
+  padding: 12px;
+  width: 250px;
+}
+
+button {
+  border-radius: 15px;
+  padding: 12px;
+  width: 250px;
+  background-color: #374957;
+  color: #fff0e1;
+  text-transform: uppercase;
+  font-weight: 500;
+}
